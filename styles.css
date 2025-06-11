@@ -1,0 +1,82 @@
+/* General setup */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Centering the stopwatch */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+/* Stopwatch container */
+.stopwatch {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+/* Display text */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Buttons layout */
+.buttons {
+  margin-bottom: 1rem;
+}
+
+.buttons button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.buttons button:hover {
+  filter: brightness(90%);
+}
+
+/* Different button colors */
+.buttons button:nth-child(2) {
+  background: #FF9800;
+}
+
+.buttons button:nth-child(3) {
+  background: #f44336;
+}
+
+.buttons button:nth-child(4) {
+  background: #2196F3;
+}
+
+/* Lap list */
+ul#laps {
+  max-height: 150px;
+  overflow-y: auto;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+ul#laps li {
+  list-style: none;
+  padding: 5px 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+  color: #555;
+}
