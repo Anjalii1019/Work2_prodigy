@@ -1,11 +1,10 @@
-/* General setup */
+
 html, body {
   height: 100%;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
 
-/* Centering the stopwatch */
 body {
   display: flex;
   justify-content: center;
@@ -13,7 +12,6 @@ body {
   background: linear-gradient(to right, #74ebd5, #acb6e5);
 }
 
-/* Stopwatch container */
 .stopwatch {
   background: white;
   padding: 2rem;
@@ -23,20 +21,18 @@ body {
   width: 320px;
 }
 
-/* Display text */
 h1 {
   font-size: 3rem;
   margin-bottom: 1.5rem;
   color: #333;
 }
 
-/* Buttons layout */
 .buttons {
   margin-bottom: 1rem;
 }
 
 .buttons button {
-  background: #4CAF50;
+  background: #A69888;
   color: white;
   border: none;
   padding: 10px 15px;
